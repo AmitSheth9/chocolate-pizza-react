@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import ImageSection from './ImageSection.js'
+import IngredientList from './IngredientList.js'
+import Recipe from './Recipe.js'
 import Ul from './Ul.js'
 import Ultwo from './Ultwo.js'
 
@@ -24,24 +27,9 @@ export default class Main extends Component {
             
            
         </div>
-        <img src="choco-pizza.png" alt='' />
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium cumque nam eaque, a laborum esse quo possimus soluta aliquid necessitatibus architecto et eveniet ducimus aliquam sed, quas maxime, aspernatur vel!
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. A accusantium voluptate ipsa harum omnis odit necessitatibus praesentium sapiente? Blanditiis corporis unde eligendi in vero exercitationem temporibus qui animi molestiae beatae!
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, minus veritatis recusandae doloribus impedit quas ducimus maiores non earum quae, tempora quos delectus rem perferendis magnam vitae tenetur soluta est.
-        </p>
-        <div className="list">
-            <div className='listone'>
-                <Ul />
-            </div>
-            <div className='listtwo'>
-                <Ultwo/>
-            </div>
-        </div>
+        <ImageSection/>
+        <Recipe/>
+        <IngredientList/>
         <hr></hr>
     <section className="vanessa">
         <img src="van-pic.png"alt='' />

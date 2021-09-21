@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import ButtonList from './ButtonList'
 
 export default class Header extends Component {
     render() {
         return (
         <header>
            <div className="delicious">
-            <img src="logo.png" alt='' align="left"/>
+           <img src="logo.png" alt='' align="left"/>
             <div className="logo">
                 Delicious
             </div>
@@ -13,16 +14,9 @@ export default class Header extends Component {
                 The best food blog on the web
             </div> 
         </div>
-        <div className="icons">
-            <img src="fb-icon.png" alt=''/>
-            <img src="twit-icon.png"alt=''/>
-            <img src="gp-icon.png"alt=''/>
-            <img src="insta-icon.png"alt=''/>
-            <img src="flic-icon.png"alt=''/>
-            <img src="pint-icon.png"alt=''/>
-            <img src="rss-icon.png"alt=''/>
-            <img src="mail-icon.png"alt=''/>
-        </div>
+        <ButtonList/>
+          
+        
     </header>
         )
     }
