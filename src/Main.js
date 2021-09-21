@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import ImageSection from './ImageSection.js'
 import IngredientList from './IngredientList.js'
 import Recipe from './Recipe.js'
-import Ul from './Ul.js'
-import Ultwo from './Ultwo.js'
 
 export default class Main extends Component {
     render() {
