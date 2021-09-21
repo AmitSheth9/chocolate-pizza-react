@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { listData } from './Data.js'
 import { listDataTwo } from './Data.js'
+import Ul from './Ul.js'
+import Ultwo from './Ultwo.js'
 
 export default class Main extends Component {
     render() {
@@ -36,20 +38,10 @@ export default class Main extends Component {
         </p>
         <div className="list">
             <div className='listone'>
-                <ul>
-                    listData.map()
-                </ul>
+                <Ul />
             </div>
             <div className='listtwo'>
-                <ul>
-                    
-                    <li>1 1/2 cups heavy cream</li>
-                    <li className='checked'><strike>1/3 granulated sugar</strike></li>
-                    <li className ='checked'><strike>2 egg yolks</strike></li>
-                    <li>1 lemon, juiced</li>
-                    <li>2 tbsp butter</li>
-                    <li>1 cup honey roasted pecans, roughly chopped</li>
-                </ul>
+                <Ultwo/>
             </div>
         </div>
         <hr></hr>
