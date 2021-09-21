@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import { listData } from './Data.js'
-import { listDataTwo } from './Data.js'
 import Ul from './Ul.js'
 import Ultwo from './Ultwo.js'
 

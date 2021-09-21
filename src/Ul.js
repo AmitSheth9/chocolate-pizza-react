@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { listData, listDataTwo } from './Data.js'
+import { listData } from './Data.js'
 
 export default class Ul extends Component {
     render() {
